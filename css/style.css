@@ -1,0 +1,193 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: #fff;
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-template-areas: "a b";
+}
+aside {
+	background: #fff;
+	grid-area: a;
+	padding: 20px;
+	-webkit-box-shadow: 2px 0px 10px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 0px 10px -2px rgba(0,0,0,0.75);
+	box-shadow: 2px 0px 10px -2px rgba(0,0,0,0.75);
+
+}
+
+h1 a.logo img {
+	width: 100%;
+    max-width: 185px;
+    margin-bottom: 20px;
+	}
+
+div .menu-global a {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 40px;
+	color: #2C2C2C;
+	display: block;
+	position: relative;
+	text-decoration: none;
+	padding-left: 30px;
+}
+
+div .menu-global a:hover {
+	color: #0052CC;
+	background: #ECECEC;
+	border-radius: 3px;
+}
+
+div .menu-global a:before {
+	content: "";
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left:  5px;
+	margin: auto;
+	display: block;
+	background-position: 30%;
+	background-size: contain;
+	background-repeat: no-repeat;
+
+}
+
+div .menu-global a:after {
+	content: "";
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 15px;
+	margin: auto;
+	display: block;
+	background-position: 30%;
+	background-size: contain;
+	background-repeat: no-repeat;
+
+}
+
+div .menu-global a.active {
+	background: #ECECEC;
+	border-radius: 4px;
+}
+
+div .menu-global a.active {
+	background: #ECECEC;
+	border-radius: 4px;
+}
+
+.menu-global .dashboard:before {
+	background-image: url('../img/home-dashboad.svg');
+}
+
+.menu-global .dashboard:after {
+	background-image: url('../img/chevron-down.svg');
+
+}
+
+.menu-global .ecommerce:before {
+	background-image: url('../img/ecommerce.svg');
+}
+
+.menu-global .email:before {
+	background-image: url('../img/email.svg');
+}
+
+.menu-global .chat:before {
+	background-image: url('../img/chat.svg');
+}
+
+.menu-global .todo:before {
+	background-image: url('../img/todo.svg');
+}
+
+.menu-global .calendar:before {
+	background-image: url('../img/calendar.svg');
+}
+
+.menu-global .grid:before {
+	background-image: url('../img/grid.svg');
+}
+
+.menu-global .grid:after {
+	background-image: url('../img/right-arrow.svg');
+}
+
+.menu-global .colors:before {
+	background-image: url('../img/colors.svg');
+}
+
+.menu-global .card:before {
+	background-image: url('../img/card.svg');
+}
+
+.menu-global .card:after {
+	background-image: url('../img/right-arrow.svg');
+}
+
+.menu-global .table:before {
+	background-image: url('../img/table.svg');
+}
+
+.menu-global .components:before {
+	background-image: url('../img/components.svg');
+}
+
+.menu-global .components:after {
+	background-image: url('../img/right-arrow.svg');
+}
+
+.menu-global .form-elements:before {
+	background-image: url('../img/form-elements.svg');
+}
+
+.menu-global .form-elements:after {
+	background-image: url('../img/right-arrow.svg');
+}
+
+.menu-global .form-layouts:before {
+	background-image: url('../img/form-layouts.svg');
+}
+
+.menu-global .form-wizard:before {
+	background-image: url('../img/form-wizard.svg');
+}
+
+.menu-global .form-validation:before {
+	background-image: url('../img/form-validation.svg');
+}
+
+
+.menu-title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 36px;
+	text-transform: uppercase;
+	color: #999999;
+}
+
+
+
+main {
+	background: #F9F9F9;
+	grid-area: b;
+}
+
+
+
+
